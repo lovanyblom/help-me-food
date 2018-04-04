@@ -1,14 +1,14 @@
 /*detta röda är html taggar du targetar*/
 body{
+
+  font-family: sans-serif;
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  font-family: sans-serif;
-  font-style: oblique;
-  font-variant-ligatures: normal;
+
 }
 
 h1 {
@@ -20,9 +20,13 @@ h1 {
 }
 /*detta är en html class, när du targetar en class måste du skriva punkt framför*/
 .inputSection {
+  /*height: 32px;
+  */
+
   background-color: inherit;
   margin: 50px 0px 80px 0px;
-  width: 400px
+  width: 400px;
+
 }
 
 .inputs {
@@ -33,30 +37,51 @@ h1 {
 }
 
 input {
-  font-family: sans-serif;
+
+  height: 20px;
   font-weight: lighter;
+  font-family: sans-serif;
   background-color:#eeeeee;
   margin-top: 10px;
+
 }
 
 .Something {
     font-family: sans-serif;
     font-weight: lighter;
-    color: #f44283;
     background-color: inherit;
+    height: 40px;
 }
 
 .addOption {
+  margin-top: 10px;
+  background-color: #f44283;
   font-family: sans-serif;
   font-weight: lighter;
-  background-color: #f44283;
-  margin-top: 10px;
-  width: 70px
+  padding: 10px 32px;
+  text-align: center;
 }
 
-.go {
+.submit {
   font-family: sans-serif;
-  font-weight: lighter;
+  font-weight:lighter;
   background-color:#f44283;
-  width: 70px
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight:lighter;
+  padding: 10px 32px;
+  text-align: center;
+
 }
