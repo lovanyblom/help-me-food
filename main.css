@@ -1,0 +1,62 @@
+/*detta röda är html taggar du targetar*/
+body{
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-variant-ligatures: normal;
+}
+
+h1 {
+  background-color: inherit;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+/*detta är en html class, när du targetar en class måste du skriva punkt framför*/
+.inputSection {
+  background-color: inherit;
+  margin: 50px 0px 80px 0px;
+  width: 400px
+}
+
+.inputs {
+  background-color: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-family: sans-serif;
+  font-weight: lighter;
+  background-color:#eeeeee;
+  margin-top: 10px;
+}
+
+.Something {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #f44283;
+    background-color: inherit;
+}
+
+.addOption {
+  font-family: sans-serif;
+  font-weight: lighter;
+  background-color: #f44283;
+  margin-top: 10px;
+  width: 70px
+}
+
+.go {
+  font-family: sans-serif;
+  font-weight: lighter;
+  background-color:#f44283;
+  width: 70px
+}
